@@ -8,7 +8,8 @@
 “	Telegram Torrent Leeching Bot by Some Weebs ” 
 </p>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)]
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/advik-afk/Torrent-Bot-Lazyleech)
+
 
 # Table of Content
 - [WHAT IS THIS REPO ABOUT ?](#what-is-this-repo-about)
