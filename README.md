@@ -8,6 +8,8 @@
 “	Telegram Torrent Leeching Bot by Some Weebs ” 
 </p>
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)]
+
 # Table of Content
 - [WHAT IS THIS REPO ABOUT ?](#what-is-this-repo-about)
 - [FEATURES](#features)
