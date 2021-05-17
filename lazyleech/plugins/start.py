@@ -19,4 +19,4 @@ from pyrogram import Client, filters
 async def start_cmd(client, message):
     await message.reply_text('''<b>Hi, I am Torrent Lazyleech.</b>\n
 I can leech direct / torrent links.\n
-For More Info /help)
+For More Info /help)'''.strip())
