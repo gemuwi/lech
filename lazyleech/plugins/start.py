@@ -17,7 +17,6 @@ from pyrogram import Client, filters
 
 @Client.on_message(filters.command('start'))
 async def start_cmd(client, message):
-    await message.reply_text('''<b>Hi, I am Torrent Lazyleech.</b>
-I can leech direct / torrent links.
+    await message.reply_text('''<b>Hi, I am Torrent Lazyleech.</b>\n
+I can leech direct / torrent links.\n
 For More Info /help)
-
