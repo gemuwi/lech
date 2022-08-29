@@ -20,7 +20,7 @@ import aiohttp
 from io import BytesIO, StringIO
 from pyrogram import Client
 
-API_ID = os.environ.get(4665778)
+API_ID = os.environ.get('API_ID', 4665778)
 API_HASH = os.environ.get('10e3ed833b0d09699973420d45359409')
 BOT_TOKEN = os.environ.get('5613702848:AAHqmEv47v3PHuJBkMbO_AYMb-AUC4cq8js')
 TESTMODE = os.environ.get('TESTMODE')
