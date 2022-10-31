@@ -4,15 +4,15 @@ import aiohttp
 from io import BytesIO, StringIO
 from pyrogram import Client
 
-API_ID = os.environ.get('API_ID', 4665778)
-API_HASH = os.environ.get('API_HASH', "10e3ed833b0d09699973420d45359409")
-BOT_TOKEN = os.environ.get('BOT_TOKEN', "5613702848:AAHqmEv47v3PHuJBkMbO_AYMb-AUC4cq8js")
+API_ID = os.environ.get('API_ID', 21735016)
+API_HASH = os.environ.get('API_HASH', "d8e5fdd31ffa3d058d77a4221faa6e05")
+BOT_TOKEN = os.environ.get('BOT_TOKEN', "5266372305:AAFH4B7uQDXtnD0_4Tzb9ZFTAs1OnaguyDI")
 TESTMODE = os.environ.get('TESTMODE')
 TESTMODE = TESTMODE and TESTMODE != '0'
 
-EVERYONE_CHATS = os.environ.get('EVERYONE_CHATS', "-1001762606230")
+EVERYONE_CHATS = os.environ.get('EVERYONE_CHATS', "-1001642523419")
 EVERYONE_CHATS = list(map(int, EVERYONE_CHATS.split(' '))) if EVERYONE_CHATS else []
-ADMIN_CHATS = os.environ.get('ADMIN_CHATS', "-1001762606230")
+ADMIN_CHATS = os.environ.get('ADMIN_CHATS', "-1001642523419")
 ADMIN_CHATS = list(map(int, ADMIN_CHATS.split(' '))) if ADMIN_CHATS else []
 ALL_CHATS = EVERYONE_CHATS + ADMIN_CHATS
 
